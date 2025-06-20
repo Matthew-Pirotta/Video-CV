@@ -135,17 +135,7 @@ ALGORITHM_NAME_FUNC_MAP = {"ORB" : detect_orb,
 - Camera pose validation
 - Bundle adjustment convergence
 
-### Core Requirements
-
-```
-opencv-python >= 4.11.0.86
-numpy >= 2.2.4
-matplotlib >= 3.10.1
-imageio >= 2.37.0
-open3d >= 0.19.0
-```
-
-### Development Setup
+### Setup
 
 ```bash
 git clone https://github.com/Matthew-Pirotta/Video-CV
