@@ -1,5 +1,0 @@
-In essence, bf.knnMatch() combined with Lowe's ratio test acts as a pre-filter that cleans up the initial set of matches, making the subsequent robust geometric verification (like RANSAC with Fundamental Matrix or Homography) more efficient and more likely to succeed in finding the correct underlying geometric transformation.
-
-Optional for report - Add average match distances or match counts for benchmarking.
-
-Even though findHomography isn't optimal for final triangulation, it is a great way to filter out outlier matches at this stage, without needing camera intrinsics or Essential matrix.
